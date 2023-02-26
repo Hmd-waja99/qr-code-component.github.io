@@ -19,6 +19,8 @@ main {
 
   background-color: hsl(0, 0%, 100%);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  color: hsl(220, 15%, 55%);
 }
 
 main,
@@ -31,21 +33,13 @@ main img {
 }
 
 .card-bottom {
-  margin: 10px;
-}
-
-.card-bottom h1,
-.card-bottom p {
+  margin: 15px;
   font-size: 0.9375rem;
 }
 
 .card-bottom h1 {
   color: hsl(218, 44%, 22%);
   margin-bottom: 0.9375rem;
-}
-
-.card-bottom p {
-  color: hsl(220, 15%, 55%);
 }
 
 footer {
