@@ -8,52 +8,57 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 
   font-family: 'Kumbh Sans', sans-serif;
   text-align: center;
 }
 
-.card-container {
+main {
   max-width: 19rem;
-  padding: 20px;
+  padding: 16px;
 
   background-color: hsl(0, 0%, 100%);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.card-top img,
-.card-container {
+main,
+main img {
   border-radius: 20px;
 }
 
-.card-top {
-  overflow: hidden;
+main img {
+  max-width: 100%;
 }
 
-.card-top img {
-  width: 100%;
+.card-bottom {
+  margin: 10px;
 }
 
-.card-bottom h2 {
+.card-bottom h1,
+.card-bottom p {
+  font-size: 0.9375rem;
+}
+
+.card-bottom h1 {
   color: hsl(218, 44%, 22%);
+  margin-bottom: 0.9375rem;
 }
 
 .card-bottom p {
   color: hsl(220, 15%, 55%);
 }
 
-.attribution {
+footer {
   position: absolute;
   bottom: 0;
 }
 
-.attribution p {
+footer p {
   margin: 3px;
   font-weight: bold;
   color: hsl(218, 44%, 22%);
 }
 
-.attribution p a {
+footer p a {
   color: hsl(217, 100%, 42%);
 }
