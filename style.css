@@ -15,8 +15,8 @@ body {
 }
 
 .card-container {
-  width: 350px;
-  height: 540px;
+  max-width: 19rem;
+  padding: 20px;
 
   background-color: hsl(0, 0%, 100%);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -29,11 +29,6 @@ body {
 
 .card-top {
   overflow: hidden;
-  margin: 20px;
-}
-
-.card-bottom {
-  margin: 10px;
 }
 
 .card-top img {
@@ -45,7 +40,6 @@ body {
 }
 
 .card-bottom p {
-  font-size: 18px;
   color: hsl(220, 15%, 55%);
 }
 
